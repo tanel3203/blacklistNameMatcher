@@ -5,6 +5,21 @@
 * Then implements a strict find against a query name,
 * If no results are found, a modified (partial) search is implemented
 
+# Contents
+## Classes:
+* importer.py (1 method)
+* processor.py (1 method)
+* cleaner.py (1 method)
+* main.py (3 methods)
+## Data:
+* blacklist.tsv, blacklist.txt, ...
+* noisefile.tsv, noisefile.txt, ...
+
+# Command line start
+```
+python main.py
+```
+
 # Set up:
 ![ProgramFlow](https://cloud.githubusercontent.com/assets/5417573/21274782/8f3c8df0-c3d2-11e6-9514-a78e12a7b558.png)
 
