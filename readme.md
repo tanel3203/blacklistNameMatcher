@@ -16,9 +16,46 @@
 * blacklist.tsv, blacklist.txt, ...
 * noisefile.tsv, noisefile.txt, ...
 
-## Command line start
+## Example command line process
 ```
-python main.py
+tanel@tanel:~/Documents/pyBlacklist$ python main.py
+
+File imported!
+
+File processed!
+
+Cleaning done!
+
+Please enter name to search in the terrorist list 
+> Obama Bin Laden
+Please enter name of blacklist file in same path (e.g. blacklist.tsv) or absolute location 
+> blacklist.tsv
+Please enter name of noise file in same path (e.g. noisefile.tsv) or absolute location 
+> noisefile.tsv
+No strict match, looking for partial matches...
+TERRORIST MATCHED!
+Certainty:  33.33 %
+Name:  Osama Laden
+
+TERRORIST MATCHED!
+Certainty:  66.67 %
+Name:  Osama Bin Laden
+
+TERRORIST MATCHED!
+Certainty:  66.67 %
+Name:  Bin Laden, Osama
+
+TERRORIST MATCHED!
+Certainty:  66.67 %
+Name:  Laden Osama Bin
+
+TERRORIST MATCHED!
+Certainty:  66.67 %
+Name:  osama bin laden
+
+TERRORIST MATCHED!
+Certainty:  66.67 %
+Name:  osama and bin laden
 ```
 
 ## Set up:
