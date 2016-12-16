@@ -10,7 +10,8 @@
 * importer.py (1 method)
 * processor.py (1 method)
 * cleaner.py (1 method)
-* main.py (3 methods)
+* terroristFinder.py (3 methods)
+* main.py
 
 ### Data:
 * blacklist.tsv, blacklist.txt, ...
