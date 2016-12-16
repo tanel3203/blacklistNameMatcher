@@ -1,4 +1,4 @@
-# Blacklist calculator
+# Blacklist Name Matcher
 
 # Description:
 * Imports a file with a list of blacklisted names, cleans it against a file with irrelevant names and contents
