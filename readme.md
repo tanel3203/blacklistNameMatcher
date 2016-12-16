@@ -6,7 +6,7 @@
 * If no results are found, a fuzzy search using Levenshtein distance is implemented and nearest results are reported
 
 # Set up:
-![ProgramFlow](https://github.com/tanel3203/blacklistNameMatcher/blacklistMatcher.svg)
+![ProgramFlow](blacklistMatcher.svg)
 
 # Details
 * file has one name in every row (no XML, JSON,.., formatting)
