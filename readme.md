@@ -6,7 +6,7 @@
 * If no results are found, a fuzzy search using Levenshtein distance is implemented and nearest results are reported
 
 # Set up:
-![ProgramFlow](blacklistNameMatcher/blacklistMatcher.png)
+![ProgramFlow](https://cloud.githubusercontent.com/assets/5417573/21274782/8f3c8df0-c3d2-11e6-9514-a78e12a7b558.png)
 
 # Details
 * file has one name in every row (no XML, JSON,.., formatting)
