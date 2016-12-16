@@ -22,7 +22,7 @@ python main.py
 ```
 
 ## Set up:
-![ProgramFlow](https://cloud.githubusercontent.com/assets/5417573/21274782/8f3c8df0-c3d2-11e6-9514-a78e12a7b558.png)
+![ProgramFlow](https://cloud.githubusercontent.com/assets/5417573/21275441/85653a40-c3d5-11e6-866a-c3029029aace.png)
 
 ## Details
 * file has one name in every row (no XML, JSON,.., formatting)
