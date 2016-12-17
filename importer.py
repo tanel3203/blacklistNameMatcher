@@ -15,7 +15,3 @@ def importFile(filename):
 		myDoc = ""
 
 	return myDoc
-
-print ""
-print "File imported!"
-print ""

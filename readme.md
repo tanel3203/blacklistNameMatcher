@@ -6,7 +6,7 @@
 * If no results are found, a modified (partial) search is implemented
 
 ## Contents
-### Classes:
+### Components:
 * importer.py (1 method)
 * processor.py (1 method)
 * cleaner.py (1 method)
@@ -20,12 +20,6 @@
 ## Example command line process
 ```
 tanel@tanel:~/Documents/pyBlacklist$ python main.py
-
-File imported!
-
-File processed!
-
-Cleaning done!
 
 Please enter name to search in the terrorist list 
 > Obama Bin Laden
@@ -64,7 +58,7 @@ Name:  osama and bin laden
 
 ## Details
 * file has one name in every row (no XML, JSON,.., formatting)
-* acceptable filetypes: txt, csv, tsv
+* common filetypes: txt, csv, tsv
 
 ## Tech used:
 * Python 2.7

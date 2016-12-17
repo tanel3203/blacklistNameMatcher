@@ -28,7 +28,3 @@ def cleaner(fileToBeCleaned, noiseFileToCleanWith = []):
 				name = name.replace(noise, "").strip()
 
 	return fileShiny
-
-print ""
-print "Cleaning done!"
-print ""

@@ -14,16 +14,8 @@ def processFile(filename):
 	# Get file contents
 	importedFile = importer.importFile(filename)
 
-
-
-
 	# Add data to list
 	# \n - newline
 	processedList = importedFile.split("\n")
 
 	return processedList
-
-
-print ""
-print "File processed!"
-print ""
