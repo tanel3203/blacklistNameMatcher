@@ -4,4 +4,8 @@ python:
 # command to install dependencies
 install: "pip install -r requirements.txt"
 # command to run tests
-script: pytest
+script: 
+    - python main.py
+    - Obama Bin Laden
+    - blacklist.tsv
+    - noisefile.tsv
