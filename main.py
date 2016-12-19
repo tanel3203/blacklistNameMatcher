@@ -10,7 +10,7 @@ description: takes in 1-2 files (absolute file path or filename if correct locat
     	e.g. Osama Bin Laden = OSAMA bin LADEN (strict match - no partial match search performed)
     	e.g. Obama Bin Laden ~ OSAMA bin LADEN ~ Bin Laden, Osama ~ Osama Laden (no strict match, partial search results)
 readme: see readme.md
-license: see licence.txt
+license: see license.txt
 """
 
 import terrorist_finder as terrorist_finder
