@@ -1,17 +1,17 @@
-###################################################
-# Input: None
-# Output: raw imported file contents
-# Purpose: Get raw data from file
-# Methods (1):
-# 		importFile(1 argument type textfile)
-###################################################
+"""
+Input: None
+Output: raw imported file contents
+Purpose: Get raw data from file
+Methods (1):
+        import_file(1 argument type textfile)
+"""
 
 # File import
-def importFile(filename): 
-	try:
-		myFile = open(filename)
-		myDoc = myFile.read()
-	except:
-		myDoc = ""
+def import_file(filename): 
+    try:
+        my_file = open(filename)
+        my_doc = my_file.read()
+    except:
+        my_doc = ""
 
-	return myDoc
+    return my_doc
