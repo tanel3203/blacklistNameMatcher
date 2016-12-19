@@ -2,3 +2,5 @@ terrorist_finder.pyc
 processor.pyc
 importer.pyc
 cleaner.pyc
+inprogress_levenshteinDistance.py
+inprogress_calcLev.py
