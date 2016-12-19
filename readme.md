@@ -10,7 +10,7 @@
 * importer.py (1 method)
 * processor.py (1 method)
 * cleaner.py (1 method)
-* terroristFinder.py (3 methods)
+* terrorist_finder.py (3 methods)
 * main.py
 
 ### Data:
