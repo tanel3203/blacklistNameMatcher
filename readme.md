@@ -53,8 +53,11 @@ Certainty:  66.67 %
 Name:  osama and bin laden
 ```
 
-## Set up:
-![ProgramFlow](https://cloud.githubusercontent.com/assets/5417573/21275441/85653a40-c3d5-11e6-866a-c3029029aace.png)
+## Program logic
+![ProgramLogic](https://cloud.githubusercontent.com/assets/5417573/21487477/69cc31bc-cbd2-11e6-96f1-138998946dba.jpg)
+
+## Program setup:
+![ProgramSetUp](https://cloud.githubusercontent.com/assets/5417573/21275441/85653a40-c3d5-11e6-866a-c3029029aace.png)
 
 ## Details
 * file has one name in every row (no XML, JSON,.., formatting)
