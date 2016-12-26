@@ -69,4 +69,7 @@ Name:  osama and bin laden
 * * In reality, a cronjob would do it in every X amount of time
 * Partial matches are not ordered
 * User raw input is not cleaned
-* Implement a fuzzy search using Levenshtein distance, if strict and partial matches don't return anything
+
+# Content works, not yet implemented:
+* (levenshteinDistance.py): fuzzy search using Levenshtein distance, if strict and partial matches don't return anything
+* (scraper.py): get data straight from EUROPA blacklist, process to list type
