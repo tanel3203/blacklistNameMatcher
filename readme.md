@@ -54,7 +54,7 @@ Name:  osama and bin laden
 ```
 
 ## Program logic
-![ProgramLogic](https://cloud.githubusercontent.com/assets/5417573/21487516/86a0d6f2-cbd3-11e6-9b9b-d49cf43d27da.png)
+![ProgramLogic](https://cloud.githubusercontent.com/assets/5417573/21487556/15817dfe-cbd4-11e6-823d-45ebd9346ae6.png)
 
 ## Program setup:
 ![ProgramSetUp](https://cloud.githubusercontent.com/assets/5417573/21275441/85653a40-c3d5-11e6-866a-c3029029aace.png)
