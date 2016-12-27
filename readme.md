@@ -8,12 +8,12 @@
 
 ## Contents
 ### Components:
-* scraper.py (1 method)
-* importer.py (1 method)
-* processor.py (1 method)
-* cleaner.py (1 method)
-* terrorist_finder.py (3 methods)
-* main.py
+* scraper.py (1 method) - scrape EUROPA XML data and process to list type
+* importer.py (1 method) - import file
+* processor.py (1 method) - process file to list
+* cleaner.py (1 method) - clean file against a noisefile with irrelevant words
+* terrorist_finder.py (3 methods) - find matches in file against query
+* main.py - command line program
 
 ### Data:
 * blacklist.tsv, blacklist.txt, ...
@@ -78,6 +78,7 @@ Name:  Robert Konars
 * * In reality, a cronjob would do it in every X amount of time
 * Partial matches are not ordered
 * User raw input is not cleaned
+* Does not handle foreign keyboards (e.g. kirillitsa)
 
 # Content works, not yet implemented:
 * (levenshteinDistance.py): fuzzy search using Levenshtein distance, if strict and partial matches don't return anything
