@@ -2,7 +2,7 @@
 
 ## Description:
 * If using a file: Imports a file with a list of blacklisted names, cleans it against a file with irrelevant names and contents
-* If using EUROPA sanctions list: Imports XML from EUROPA sanctions list, processes it to list type
+* If using EUROPA sanctions list: Imports XML from EUROPA sanctions website, processes it to list type
 * Then implements a strict find against a query name,
 * If no results are found, a modified (partial) search is implemented
 
