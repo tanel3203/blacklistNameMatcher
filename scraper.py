@@ -35,5 +35,3 @@ def scraper(nodes, blacklist):
 	    
 	return wholenames
 
-
-print scraper(8110, 'http://ec.europa.eu/external_relations/cfsp/sanctions/list/version4/global/global.xml')

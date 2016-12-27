@@ -40,9 +40,16 @@ def partial_match(query,blacklist):
 
     return match_name, match_certainty
 
-def terrorist_finder(query_string, blacklist_data_file, noise_data_file = []):
+def terrorist_finder(query_string, source_data, blacklist_data_file, noise_data_file = []):
     query = query_string
-    blacklist = clean.cleaner(blacklist_data_file, noise_data_file)
+
+    if source_data.upper() == "FILE":
+        blacklist = clean.cleaner(blacklist_data_file, noise_data_file)
+    elif source_data.upper() == "EUROPA":
+        blacklist = blacklist_data_file
+    else:
+        raise ValueError("Source data isn't file or europa")
+
 
     # Strict matching
     if (strict_match(query,blacklist)):

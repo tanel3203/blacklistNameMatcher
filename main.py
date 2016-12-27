@@ -17,10 +17,22 @@ import terrorist_finder as terrorist_finder
 
 query = raw_input("Please enter name to search in the terrorist list \n> ")
 
-blacklist = raw_input("Please enter name of blacklist file in same path (e.g. blacklist.tsv) or absolute location \n> ")
+source_choice = raw_input("Do you want to import a file or use the EUROPA database? (Input 'file', otherwise EUROPA is used) \n> ")
 
-noisefile = raw_input("Please enter name of noise file in same path (e.g. noisefile.tsv) or absolute location \n> ")
+if source_choice.upper() == "FILE":
+	blacklist = raw_input("Please enter name of blacklist file in same path (e.g. blacklist.tsv) or absolute location \n> ")
 
+	noisefile = raw_input("Please enter name of noise file in same path (e.g. noisefile.tsv) or absolute location \n> ")
 
+	terrorist_finder.terrorist_finder(query, "file", blacklist, noisefile)
 
-terrorist_finder.terrorist_finder(query, blacklist, noisefile)
+else:
+	import scraper as scraper
+	print "We will use the default sanctions list on ec.europa.eu and 8110 records (as at 27.12.2016)"
+	print ""
+	print "Give it a few seconds..."
+	print ""
+	blacklist = scraper.scraper(8110, 'http://ec.europa.eu/external_relations/cfsp/sanctions/list/version4/global/global.xml')
+	noisefile = []
+
+	terrorist_finder.terrorist_finder(query, "europa", blacklist, noisefile)

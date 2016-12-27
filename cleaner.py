@@ -26,5 +26,6 @@ def cleaner(file_to_be_cleaned, noise_file_to_clean_with = []):
                 # Remove the noise and trim the string in file and current string 
                 file_shiny[index] = name.replace(noise, "").strip()
                 name = name.replace(noise, "").strip()
+    
 
     return file_shiny
