@@ -18,6 +18,9 @@ def scraper(nodes, blacklist):
 	tree = ET.ElementTree(file=urllib2.urlopen(blacklist))
 	ttr = tree.findall(".//WHOLENAME")
 
+	# Temporary fix
+	nodes = len(ttr)
+
 	print "------------------------------------------------------------------------------"
 	print "IMPORTANT!"
 	print "If this text is followed by an error"
